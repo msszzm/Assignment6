@@ -1,6 +1,6 @@
 package eg.edu.alexu.csd.datastructure.queue;
 
-public class AQueue implements  IQueue  {
+public class AQueue implements IQueue, IArrayBased{
 
     /**
      * Size of the array.(maximum number of elements).
