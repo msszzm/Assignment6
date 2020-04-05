@@ -64,4 +64,10 @@ public class AQueue implements IQueue, IArrayBased{
     public int size() {
         return size;
     }
+    
+    	public Object front(){
+            if(size == 0)
+                throw new RuntimeException("Queue is empty");
+            return queue[front];
+        }
 }
