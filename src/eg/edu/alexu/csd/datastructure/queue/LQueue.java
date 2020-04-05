@@ -65,4 +65,10 @@ public class LQueue  implements IQueue, ILinkedBased{
 	public int size() {
 		return Size;
 	}
+	
+	public Object front(){
+		if(Size==0)
+			throw new RuntimeException("Queue is empty");
+		return Head;
+	}
 }
